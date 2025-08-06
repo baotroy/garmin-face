@@ -13,16 +13,16 @@ module HeartRate {
     }
     [ @file = "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc"; @line = 8; @symbol_functiondef = [drawText,8,10,18]; @symbol_param<0> = [dc,8,19,21]; @symbol_param<1> = [cx,8,23,25]; @symbol_param<2> = [cy,8,27,29]; ]
     function drawText(dc, cx, cy) {
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_start:
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_start:
 [ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 9 8 ]
-        [ "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_start" "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_stop" ]
+        [ "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_start" "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_stop" ]
         %heart_rate.1 = local;
         symbol [ heart_rate %heart_rate.1 9 12 22 ];
-        %tmp.1 = 666;
+        %tmp.1 = "--";
         lputv %heart_rate.1 %tmp.1;
         symbol [ heart_rate %heart_rate.1 9 12 22 ];
 [ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 11 8 ]
-        [ "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_start" "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_stop" ]
+        [ "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_start" "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_stop" ]
         %hrIter.2 = local;
         symbol [ hrIter %hrIter.2 11 12 18 ];
         symbol [ Act %tmp.2 11 21 24 ];
@@ -97,197 +97,200 @@ C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_12_26_15_8_stop:
         goto @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_12_8_15_8_if_end;
 C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_12_8_15_8_if_end:
 [ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 16 8 ]
-        symbol [ System %tmp.28 16 8 14 ];
-        %tmp.28 = getm $.Toybox.System;
-        symbol [ print %tmp.29 16 15 20 ];
-        %tmp.29 = getv function %tmp.28 :print;
-        %tmp.30 = "Heart Rate: ";
-        %tmp.31 = lgetv %heart_rate.1;
-        symbol [ heart_rate %tmp.31 16 38 48 ];
-        %tmp.32 = add %tmp.30 %tmp.31;
-        invoke %tmp.28 %tmp.29(%tmp.32);
-[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 19 8 ]
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_8_30_8_if_stmt:
-        %tmp.33 = lgetv %heart_rate.1;
-        symbol [ heart_rate %tmp.33 19 12 22 ];
-        %tmp.34 = 100;
-        %tmp.35 = gte %tmp.33 %tmp.34;
-        bf %tmp.35 @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_8_30_8_if_false;
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_8_30_8_if_true:
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_31_21_8_start:
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_16_8_27_8_if_stmt:
+        %tmp.28 = lgetv %heart_rate.1;
+        symbol [ heart_rate %tmp.28 16 12 22 ];
+        %tmp.29 = 100;
+        %tmp.30 = gte %tmp.28 %tmp.29;
+        bf %tmp.30 @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_16_8_27_8_if_false;
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_16_8_27_8_if_true:
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_16_31_18_8_start:
+[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 17 13 ]
+        %tmp.31 = lgetv %dc;
+        symbol [ dc %tmp.31 17 13 15 ];
+        symbol [ setColor %tmp.32 17 16 24 ];
+        %tmp.32 = getv function %tmp.31 :setColor;
+        symbol [ Gfx %tmp.33 17 25 28 ];
+        %tmp.33 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.34 17 29 38 ];
+        %tmp.34 = getv %tmp.33 :COLOR_RED;
+        symbol [ Gfx %tmp.35 17 40 43 ];
+        %tmp.35 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.36 17 44 61 ];
+        %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+        invoke %tmp.31 %tmp.32(%tmp.34, %tmp.36);
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_16_31_18_8_stop:
+        goto @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_16_8_27_8_if_end;
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_16_8_27_8_if_false:
+[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 19 13 ]
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_13_27_8_if_stmt:
+        %tmp.37 = lgetv %heart_rate.1;
+        symbol [ heart_rate %tmp.37 19 17 27 ];
+        %tmp.38 = 80;
+        %tmp.39 = gte %tmp.37 %tmp.38;
+        bf %tmp.39 @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_13_27_8_if_false;
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_13_27_8_if_true:
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_35_21_8_start:
 [ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 20 13 ]
-        %tmp.36 = lgetv %dc;
-        symbol [ dc %tmp.36 20 13 15 ];
-        symbol [ setColor %tmp.37 20 16 24 ];
-        %tmp.37 = getv function %tmp.36 :setColor;
-        symbol [ Gfx %tmp.38 20 25 28 ];
-        %tmp.38 = getm $.Toybox.Graphics;
-        symbol [ COLOR_RED %tmp.39 20 29 38 ];
-        %tmp.39 = getv %tmp.38 :COLOR_RED;
-        symbol [ Gfx %tmp.40 20 40 43 ];
-        %tmp.40 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.41 20 44 61 ];
-        %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
-        invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41);
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_31_21_8_stop:
-        goto @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_8_30_8_if_end;
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_8_30_8_if_false:
+        %tmp.40 = lgetv %dc;
+        symbol [ dc %tmp.40 20 13 15 ];
+        symbol [ setColor %tmp.41 20 16 24 ];
+        %tmp.41 = getv function %tmp.40 :setColor;
+        symbol [ Gfx %tmp.42 20 25 28 ];
+        %tmp.42 = getm $.Toybox.Graphics;
+        symbol [ COLOR_ORANGE %tmp.43 20 29 41 ];
+        %tmp.43 = getv %tmp.42 :COLOR_ORANGE;
+        symbol [ Gfx %tmp.44 20 43 46 ];
+        %tmp.44 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.45 20 47 64 ];
+        %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
+        invoke %tmp.40 %tmp.41(%tmp.43, %tmp.45);
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_35_21_8_stop:
+        goto @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_13_27_8_if_end;
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_13_27_8_if_false:
 [ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 22 13 ]
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_30_8_if_stmt:
-        %tmp.42 = lgetv %heart_rate.1;
-        symbol [ heart_rate %tmp.42 22 17 27 ];
-        %tmp.43 = 80;
-        %tmp.44 = gte %tmp.42 %tmp.43;
-        bf %tmp.44 @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_30_8_if_false;
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_30_8_if_true:
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_27_8_if_stmt:
+        %tmp.46 = lgetv %heart_rate.1;
+        symbol [ heart_rate %tmp.46 22 17 27 ];
+        %tmp.47 = 60;
+        %tmp.48 = gte %tmp.46 %tmp.47;
+        bf %tmp.48 @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_27_8_if_else_false;
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_27_8_if_true:
 C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_35_24_8_start:
 [ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 23 13 ]
-        %tmp.45 = lgetv %dc;
-        symbol [ dc %tmp.45 23 13 15 ];
-        symbol [ setColor %tmp.46 23 16 24 ];
-        %tmp.46 = getv function %tmp.45 :setColor;
-        symbol [ Gfx %tmp.47 23 25 28 ];
-        %tmp.47 = getm $.Toybox.Graphics;
-        symbol [ COLOR_ORANGE %tmp.48 23 29 41 ];
-        %tmp.48 = getv %tmp.47 :COLOR_ORANGE;
-        symbol [ Gfx %tmp.49 23 43 46 ];
-        %tmp.49 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.50 23 47 64 ];
-        %tmp.50 = getv %tmp.49 :COLOR_TRANSPARENT;
-        invoke %tmp.45 %tmp.46(%tmp.48, %tmp.50);
+        %tmp.49 = lgetv %dc;
+        symbol [ dc %tmp.49 23 13 15 ];
+        symbol [ setColor %tmp.50 23 16 24 ];
+        %tmp.50 = getv function %tmp.49 :setColor;
+        symbol [ Gfx %tmp.51 23 25 28 ];
+        %tmp.51 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.52 23 29 41 ];
+        %tmp.52 = getv %tmp.51 :COLOR_YELLOW;
+        symbol [ Gfx %tmp.53 23 43 46 ];
+        %tmp.53 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.54 23 47 64 ];
+        %tmp.54 = getv %tmp.53 :COLOR_TRANSPARENT;
+        invoke %tmp.49 %tmp.50(%tmp.52, %tmp.54);
 C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_35_24_8_stop:
-        goto @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_30_8_if_end;
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_30_8_if_false:
-[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 25 13 ]
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_25_13_30_8_if_stmt:
-        %tmp.51 = lgetv %heart_rate.1;
-        symbol [ heart_rate %tmp.51 25 17 27 ];
-        %tmp.52 = 60;
-        %tmp.53 = gte %tmp.51 %tmp.52;
-        bf %tmp.53 @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_25_13_30_8_if_else_false;
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_25_13_30_8_if_true:
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_25_35_27_8_start:
+        goto @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_27_8_if_end;
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_27_8_if_else_false:
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_25_13_27_8_start:
 [ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 26 13 ]
-        %tmp.54 = lgetv %dc;
-        symbol [ dc %tmp.54 26 13 15 ];
-        symbol [ setColor %tmp.55 26 16 24 ];
-        %tmp.55 = getv function %tmp.54 :setColor;
-        symbol [ Gfx %tmp.56 26 25 28 ];
-        %tmp.56 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.57 26 29 41 ];
-        %tmp.57 = getv %tmp.56 :COLOR_YELLOW;
-        symbol [ Gfx %tmp.58 26 43 46 ];
-        %tmp.58 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.59 26 47 64 ];
-        %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
-        invoke %tmp.54 %tmp.55(%tmp.57, %tmp.59);
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_25_35_27_8_stop:
-        goto @C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_25_13_30_8_if_end;
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_25_13_30_8_if_else_false:
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_28_13_30_8_start:
-[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 29 13 ]
-        %tmp.60 = lgetv %dc;
-        symbol [ dc %tmp.60 29 13 15 ];
-        symbol [ setColor %tmp.61 29 16 24 ];
-        %tmp.61 = getv function %tmp.60 :setColor;
-        symbol [ Gfx %tmp.62 29 25 28 ];
-        %tmp.62 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.63 29 29 40 ];
-        %tmp.63 = getv %tmp.62 :COLOR_WHITE;
-        symbol [ Gfx %tmp.64 29 42 45 ];
-        %tmp.64 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.65 29 46 63 ];
-        %tmp.65 = getv %tmp.64 :COLOR_TRANSPARENT;
-        invoke %tmp.60 %tmp.61(%tmp.63, %tmp.65);
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_28_13_30_8_stop:
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_25_13_30_8_if_end:
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_30_8_if_end:
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_8_30_8_if_end:
-[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 32 8 ]
-        [ "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_start" "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_stop" ]
+        %tmp.55 = lgetv %dc;
+        symbol [ dc %tmp.55 26 13 15 ];
+        symbol [ setColor %tmp.56 26 16 24 ];
+        %tmp.56 = getv function %tmp.55 :setColor;
+        symbol [ Gfx %tmp.57 26 25 28 ];
+        %tmp.57 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.58 26 29 40 ];
+        %tmp.58 = getv %tmp.57 :COLOR_WHITE;
+        symbol [ Gfx %tmp.59 26 42 45 ];
+        %tmp.59 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.60 26 46 63 ];
+        %tmp.60 = getv %tmp.59 :COLOR_TRANSPARENT;
+        invoke %tmp.55 %tmp.56(%tmp.58, %tmp.60);
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_25_13_27_8_stop:
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_22_13_27_8_if_end:
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_19_13_27_8_if_end:
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_16_8_27_8_if_end:
+[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 29 8 ]
+        [ "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_start" "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_stop" ]
         %hStr.4 = local;
-        symbol [ hStr %hStr.4 32 12 16 ];
-        %tmp.66 = lgetv %heart_rate.1;
-        symbol [ heart_rate %tmp.66 32 19 29 ];
-        symbol [ toString %tmp.67 32 30 38 ];
-        %tmp.67 = getv function %tmp.66 :toString;
-        %tmp.68 = invoke %tmp.66 %tmp.67();
-        lputv %hStr.4 %tmp.68;
-        symbol [ hStr %hStr.4 32 12 16 ];
-[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 35 8 ]
-        [ "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_start" "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_stop" ]
+        symbol [ hStr %hStr.4 29 12 16 ];
+        %tmp.61 = lgetv %heart_rate.1;
+        symbol [ heart_rate %tmp.61 29 19 29 ];
+        symbol [ toString %tmp.62 29 30 38 ];
+        %tmp.62 = getv function %tmp.61 :toString;
+        %tmp.63 = invoke %tmp.61 %tmp.62();
+        lputv %hStr.4 %tmp.63;
+        symbol [ hStr %hStr.4 29 12 16 ];
+[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 32 8 ]
+        [ "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_start" "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_stop" ]
         %fH.5 = local;
-        symbol [ fH %fH.5 35 12 14 ];
-        %tmp.69 = lgetv %dc;
-        symbol [ dc %tmp.69 35 17 19 ];
-        symbol [ getFontHeight %tmp.70 35 20 33 ];
-        %tmp.70 = getv function %tmp.69 :getFontHeight;
-        symbol [ Utils %tmp.72 35 34 39 ];
-        %tmp.72 = getv ? :Utils;
-        symbol [ getSmallFont %tmp.73 35 40 52 ];
-        %tmp.73 = getv function %tmp.72 :getSmallFont;
-        %tmp.74 = invoke %tmp.72 %tmp.73();
-        %tmp.75 = invoke %tmp.69 %tmp.70(%tmp.74);
-        lputv %fH.5 %tmp.75;
-        symbol [ fH %fH.5 35 12 14 ];
-[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 36 8 ]
-        [ "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_start" "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_stop" ]
+        symbol [ fH %fH.5 32 12 14 ];
+        %tmp.64 = lgetv %dc;
+        symbol [ dc %tmp.64 32 17 19 ];
+        symbol [ getFontHeight %tmp.65 32 20 33 ];
+        %tmp.65 = getv function %tmp.64 :getFontHeight;
+        symbol [ Utils %tmp.67 32 34 39 ];
+        %tmp.67 = getv ? :Utils;
+        symbol [ getSmallFont %tmp.68 32 40 52 ];
+        %tmp.68 = getv function %tmp.67 :getSmallFont;
+        %tmp.69 = invoke %tmp.67 %tmp.68();
+        %tmp.70 = invoke %tmp.64 %tmp.65(%tmp.69);
+        lputv %fH.5 %tmp.70;
+        symbol [ fH %fH.5 32 12 14 ];
+[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 33 8 ]
+        [ "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_start" "C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_stop" ]
         %x.6 = local;
-        symbol [ x %x.6 36 12 13 ];
-        %tmp.76 = lgetv %dc;
-        symbol [ dc %tmp.76 36 16 18 ];
-        symbol [ getTextWidthInPixels %tmp.77 36 19 39 ];
-        %tmp.77 = getv function %tmp.76 :getTextWidthInPixels;
-        %tmp.78 = lgetv %hStr.4;
-        symbol [ hStr %tmp.78 36 40 44 ];
-        symbol [ Utils %tmp.80 36 46 51 ];
-        %tmp.80 = getv ? :Utils;
-        symbol [ getSmallFont %tmp.81 36 52 64 ];
-        %tmp.81 = getv function %tmp.80 :getSmallFont;
-        %tmp.82 = invoke %tmp.80 %tmp.81();
-        %tmp.83 = invoke %tmp.76 %tmp.77(%tmp.78, %tmp.82);
-        lputv %x.6 %tmp.83;
-        symbol [ x %x.6 36 12 13 ];
-[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 37 8 ]
-        %tmp.84 = lgetv %dc;
-        symbol [ dc %tmp.84 37 8 10 ];
-        symbol [ drawText %tmp.85 37 11 19 ];
-        %tmp.85 = getv function %tmp.84 :drawText;
-        %tmp.86 = lgetv %cx;
-        symbol [ cx %tmp.86 37 20 22 ];
-        %tmp.87 = 2;
-        %tmp.88 = div %tmp.86 %tmp.87;
-        %tmp.89 = 3;
-        %tmp.90 = lgetv %cy;
-        symbol [ cy %tmp.90 37 28 30 ];
-        %tmp.91 = mul %tmp.89 %tmp.90;
-        %tmp.92 = 4;
-        %tmp.93 = div %tmp.91 %tmp.92;
-        symbol [ Utils %tmp.95 37 33 38 ];
-        %tmp.95 = getv ? :Utils;
-        symbol [ getSmallFont %tmp.96 37 39 51 ];
-        %tmp.96 = getv function %tmp.95 :getSmallFont;
-        %tmp.97 = invoke %tmp.95 %tmp.96();
-        %tmp.98 = lgetv %hStr.4;
-        symbol [ hStr %tmp.98 37 55 59 ];
-        symbol [ Gfx %tmp.99 37 61 64 ];
-        %tmp.99 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.100 37 65 84 ];
-        %tmp.100 = getv %tmp.99 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.84 %tmp.85(%tmp.88, %tmp.93, %tmp.97, %tmp.98, %tmp.100);
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_49_1_stop:
+        symbol [ x %x.6 33 12 13 ];
+        %tmp.71 = lgetv %dc;
+        symbol [ dc %tmp.71 33 16 18 ];
+        symbol [ getTextWidthInPixels %tmp.72 33 19 39 ];
+        %tmp.72 = getv function %tmp.71 :getTextWidthInPixels;
+        %tmp.73 = lgetv %hStr.4;
+        symbol [ hStr %tmp.73 33 40 44 ];
+        symbol [ Utils %tmp.75 33 46 51 ];
+        %tmp.75 = getv ? :Utils;
+        symbol [ getSmallFont %tmp.76 33 52 64 ];
+        %tmp.76 = getv function %tmp.75 :getSmallFont;
+        %tmp.77 = invoke %tmp.75 %tmp.76();
+        %tmp.78 = invoke %tmp.71 %tmp.72(%tmp.73, %tmp.77);
+        lputv %x.6 %tmp.78;
+        symbol [ x %x.6 33 12 13 ];
+[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 35 8 ]
+        %tmp.79 = lgetv %dc;
+        symbol [ dc %tmp.79 35 8 10 ];
+        symbol [ drawText %tmp.80 35 11 19 ];
+        %tmp.80 = getv function %tmp.79 :drawText;
+        %tmp.81 = lgetv %cx;
+        symbol [ cx %tmp.81 35 20 22 ];
+        %tmp.82 = 2;
+        %tmp.83 = mul %tmp.81 %tmp.82;
+        %tmp.84 = lgetv %cx;
+        symbol [ cx %tmp.84 35 25 27 ];
+        %tmp.85 = 2;
+        %tmp.86 = div %tmp.84 %tmp.85;
+        %tmp.87 = sub %tmp.83 %tmp.86;
+        %tmp.88 = lgetv %x.6;
+        symbol [ x %tmp.88 35 30 31 ];
+        %tmp.89 = 2;
+        %tmp.90 = div %tmp.88 %tmp.89;
+        %tmp.91 = add %tmp.87 %tmp.90;
+        %tmp.92 = lgetv %cy;
+        symbol [ cy %tmp.92 35 35 37 ];
+        %tmp.93 = 3;
+        %tmp.94 = lgetv %fH.5;
+        symbol [ fH %tmp.94 35 42 44 ];
+        %tmp.95 = mul %tmp.93 %tmp.94;
+        %tmp.96 = 4;
+        %tmp.97 = div %tmp.95 %tmp.96;
+        %tmp.98 = add %tmp.92 %tmp.97;
+        symbol [ Utils %tmp.100 35 48 53 ];
+        %tmp.100 = getv ? :Utils;
+        symbol [ getSmallFont %tmp.101 35 54 66 ];
+        %tmp.101 = getv function %tmp.100 :getSmallFont;
+        %tmp.102 = invoke %tmp.100 %tmp.101();
+        %tmp.103 = lgetv %hStr.4;
+        symbol [ hStr %tmp.103 35 70 74 ];
+        symbol [ Gfx %tmp.104 35 76 79 ];
+        %tmp.104 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.105 35 80 99 ];
+        %tmp.105 = getv %tmp.104 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.79 %tmp.80(%tmp.91, %tmp.98, %tmp.102, %tmp.103, %tmp.105);
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_8_31_36_1_stop:
     }
-    [ @file = "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc"; @line = 51; @symbol_functiondef = [hrON,51,13,17]; ]
+    [ @file = "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc"; @line = 38; @symbol_functiondef = [hrON,38,13,17]; ]
     function hrON() {
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_51_20_53_4_start:
-[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 52 8 ]
-        symbol [ Act %tmp.1 52 15 18 ];
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_38_20_40_4_start:
+[ "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc" 39 8 ]
+        symbol [ Act %tmp.1 39 15 18 ];
         %tmp.1 = getm $.Toybox.ActivityMonitor;
         %tmp.3 = const :HeartRateIterator;
-        symbol [ HeartRateIterator %tmp.3 52 24 41 const ];
+        symbol [ HeartRateIterator %tmp.3 39 24 41 const ];
         %tmp.4 = canhazplz %tmp.1 %tmp.3;
         ret %tmp.4;
-C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_51_20_53_4_stop:
+C__Users_TROY_Documents_Garmin_face_source_HeartRate_mc_38_20_40_4_stop:
     }
 }
 [ @file = "C:\Users\TROY\Documents\Garmin\face\source\HeartRate.mc"; @line = 2; ]

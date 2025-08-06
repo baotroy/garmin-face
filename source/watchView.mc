@@ -84,13 +84,15 @@ class watchView extends WatchUi.WatchFace {
         var hour_width_digit = dc.getTextWidthInPixels(hours.format("%02d"), Utils.getFont());
         var minute_width_digit = dc.getTextWidthInPixels(minutes.format("%02d"), Utils.getFont());
 
-        drawText(dc, cx-hour_width_digit/2, cy-text_height_digit + 5, hours.format("%02d"));
+        drawText(dc, cx-hour_width_digit/2, cy-text_height_digit + 5, hours.format("%02d"), false);
 
-        drawText(dc, cx-minute_width_digit/2, cy-5, minutes.format("%02d"));
+        drawText(dc, cx-minute_width_digit/2, cy-5, minutes.format("%02d"), true);
 
         // Heart rate
         HeartRate.drawText(dc, cx, cy);
-
+        Step.drawText(dc, steps.format("%d"), cx, cy);
+        Calories.drawText(dc, calories.format("%d"), cx, cy);
+        Battery.drawText(dc, "100%", cx, cy); // Placeholder for battery percentage
 
         // var viewMinute = View.findDrawableById("MinuteLabel") as Text;
         // view.setColor(Application.Properties.getValue("ForegroundColor") as Number);
@@ -131,7 +133,7 @@ class watchView extends WatchUi.WatchFace {
     function onEnterSleep() as Void {
     }
 
-    function drawText(dc, x, y, text) {
+    function drawText(dc, x, y, text, isMinutes as Boolean) {
         var myFont = Utils.getFont();
         // System.print(myFont);
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);

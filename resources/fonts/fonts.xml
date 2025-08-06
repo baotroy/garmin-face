@@ -1,6 +1,6 @@
 <resources>
     <fonts>
-        <font id="Man" filename="man100.fnt"/>
-        <font id="Man_Small" filename="man24.fnt"/>
+        <font id="Man" filename="man-glyph-100.fnt"/>
+        <font id="Man_Small" filename="man-glyph-24.fnt"/>
     </fonts>
 </resources>

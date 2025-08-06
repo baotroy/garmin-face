@@ -3,7 +3,7 @@ using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 using Toybox.ActivityMonitor as Act;
 import Toybox.System;
-module HeartRate {
+module Date {
 
 	function drawText(dc, cx, cy) {
         var heart_rate = "--";
