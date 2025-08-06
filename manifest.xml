@@ -5,7 +5,7 @@
         Use "Monkey C: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
     -->
-  <iq:application id="63f9342b-b933-46b1-98c5-0ab10b7b6e11" type="watchface" name="@Strings.AppName" entry="watch2App" launcherIcon="@Drawables.LauncherIcon" minApiLevel="5.0.0">
+  <iq:application id="ee3df153-a166-407f-9452-237b4a407245" type="watchface" name="@Strings.AppName" entry="watchApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="5.0.1">
     <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
@@ -25,7 +25,9 @@
             Use "Monkey C: Edit Languages" from the Visual Studio Code command
             palette to edit your compatible language list.
         -->
-    <iq:languages/>
+    <iq:languages>
+      <iq:language>eng</iq:language>
+    </iq:languages>
     <!--
             Use "Monkey C: Configure Monkey Barrel" from the Visual Studio Code
             command palette to edit the included barrels.

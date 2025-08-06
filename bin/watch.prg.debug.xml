@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\TROY\Documents\Garmin\watch\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="1" lineNum="10" parent="globals/watchView" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="2" lineNum="31" parent="globals" pc="268435472" symbol="getApp"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="2" lineNum="32" parent="globals" pc="268435482" symbol="getApp"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchBackground.mc" id="3" lineNum="6" parent="globals/Background" pc="268435493" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\TROY\\Documents\\Garmin\\watch\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="5" lineNum="5" parent="globals/watchApp" pc="268435525" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="8" parent="globals/HeartRate" pc="268435537" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="9" parent="globals/HeartRate" pc="268435548" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="11" parent="globals/HeartRate" pc="268435553" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="12" parent="globals/HeartRate" pc="268435569" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="13" parent="globals/HeartRate" pc="268435575" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="14" parent="globals/HeartRate" pc="268435585" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="16" parent="globals/HeartRate" pc="268435624" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="19" parent="globals/HeartRate" pc="268435645" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="20" parent="globals/HeartRate" pc="268435653" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="22" parent="globals/HeartRate" pc="268435673" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="23" parent="globals/HeartRate" pc="268435681" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="25" parent="globals/HeartRate" pc="268435701" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="26" parent="globals/HeartRate" pc="268435709" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="29" parent="globals/HeartRate" pc="268435729" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="32" parent="globals/HeartRate" pc="268435746" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="35" parent="globals/HeartRate" pc="268435755" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="36" parent="globals/HeartRate" pc="268435776" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="6" lineNum="37" parent="globals/HeartRate" pc="268435799" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="7" lineNum="51" parent="globals/HeartRate" pc="268435837" symbol="hrON"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\HeartRate.mc" id="7" lineNum="52" parent="globals/HeartRate" pc="268435847" symbol="hrON"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="10" lineNum="19" parent="globals/watchView" pc="268435860" symbol="onLayout"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="10" lineNum="21" parent="globals/watchView" pc="268435862" symbol="onLayout"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="10" lineNum="22" parent="globals/watchView" pc="268435879" symbol="onLayout"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="10" lineNum="23" parent="globals/watchView" pc="268435896" symbol="onLayout"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="12" lineNum="134" parent="globals/watchView" pc="268435930" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="12" lineNum="135" parent="globals/watchView" pc="268435933" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="12" lineNum="137" parent="globals/watchView" pc="268435945" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="12" lineNum="138" parent="globals/watchView" pc="268435962" symbol="drawText"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="13" lineNum="13" parent="globals/watchView" pc="268435983" symbol="initialize"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="13" lineNum="14" parent="globals/watchView" pc="268435985" symbol="initialize"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="33" parent="globals/watchView" pc="268435998" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="35" parent="globals/watchView" pc="268436001" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="36" parent="globals/watchView" pc="268436017" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="39" parent="globals/watchView" pc="268436025" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="40" parent="globals/watchView" pc="268436042" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="43" parent="globals/watchView" pc="268436051" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="45" parent="globals/watchView" pc="268436063" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="46" parent="globals/watchView" pc="268436066" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="47" parent="globals/watchView" pc="268436069" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="48" parent="globals/watchView" pc="268436072" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="49" parent="globals/watchView" pc="268436075" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="50" parent="globals/watchView" pc="268436078" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="51" parent="globals/watchView" pc="268436090" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="52" parent="globals/watchView" pc="268436098" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="57" parent="globals/watchView" pc="268436106" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="58" parent="globals/watchView" pc="268436158" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="59" parent="globals/watchView" pc="268436162" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="60" parent="globals/watchView" pc="268436166" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="61" parent="globals/watchView" pc="268436174" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="62" parent="globals/watchView" pc="268436182" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="65" parent="globals/watchView" pc="268436193" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="67" parent="globals/watchView" pc="268436194" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="68" parent="globals/watchView" pc="268436213" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="69" parent="globals/watchView" pc="268436221" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="72" parent="globals/watchView" pc="268436234" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="74" parent="globals/watchView" pc="268436254" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="83" parent="globals/watchView" pc="268436273" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="84" parent="globals/watchView" pc="268436294" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="85" parent="globals/watchView" pc="268436329" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="87" parent="globals/watchView" pc="268436364" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="89" parent="globals/watchView" pc="268436411" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="92" parent="globals/watchView" pc="268436455" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="102" parent="globals/watchView" pc="268436480" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="103" parent="globals/watchView" pc="268436504" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="104" parent="globals/watchView" pc="268436541" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="105" parent="globals/watchView" pc="268436565" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="106" parent="globals/watchView" pc="268436602" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchView.mc" id="15" lineNum="107" parent="globals/watchView" pc="268436626" symbol="onUpdate"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchBackground.mc" id="16" lineNum="8" parent="globals/Background" pc="268436664" symbol="initialize"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchBackground.mc" id="16" lineNum="9" parent="globals/Background" pc="268436667" symbol="initialize"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchBackground.mc" id="16" lineNum="13" parent="globals/Background" pc="268436685" symbol="initialize"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchBackground.mc" id="17" lineNum="16" parent="globals/Background" pc="268436702" symbol="draw"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchBackground.mc" id="17" lineNum="18" parent="globals/Background" pc="268436704" symbol="draw"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchBackground.mc" id="17" lineNum="19" parent="globals/Background" pc="268436720" symbol="draw"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchBackground.mc" id="17" lineNum="20" parent="globals/Background" pc="268436738" symbol="draw"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\Utils.mc" id="18" lineNum="19" parent="globals/Utils" pc="268436747" symbol="getSmallFont"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\Utils.mc" id="18" lineNum="20" parent="globals/Utils" pc="268436757" symbol="getSmallFont"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\Utils.mc" id="18" lineNum="21" parent="globals/Utils" pc="268436766" symbol="getSmallFont"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\Utils.mc" id="18" lineNum="23" parent="globals/Utils" pc="268436807" symbol="getSmallFont"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\Utils.mc" id="19" lineNum="9" parent="globals/Utils" pc="268436813" symbol="getFont"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\Utils.mc" id="19" lineNum="10" parent="globals/Utils" pc="268436823" symbol="getFont"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\Utils.mc" id="19" lineNum="11" parent="globals/Utils" pc="268436832" symbol="getFont"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\Utils.mc" id="19" lineNum="16" parent="globals/Utils" pc="268436873" symbol="getFont"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="20" lineNum="12" parent="globals/watchApp" pc="268436879" symbol="onStart"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="21" lineNum="25" parent="globals/watchApp" pc="268436882" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="21" lineNum="26" parent="globals/watchApp" pc="268436884" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="22" lineNum="20" parent="globals/watchApp" pc="268436896" symbol="getInitialView"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="22" lineNum="21" parent="globals/watchApp" pc="268436898" symbol="getInitialView"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="23" lineNum="7" parent="globals/watchApp" pc="268436924" symbol="initialize"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="23" lineNum="8" parent="globals/watchApp" pc="268436926" symbol="initialize"/>
+<entry filename="C:\\Users\\TROY\\Documents\\Garmin\\watch\\source\\watchApp.mc" id="24" lineNum="16" parent="globals/watchApp" pc="268436939" symbol="onStop"/>
+<entry filename="c:\\Users\\TROY\\Documents\\Garmin\\watch\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="25" lineNum="18" parent="globals/Rez/Layouts" pc="268436942" symbol="WatchFace"/>
+<entry filename="c:\\Users\\TROY\\Documents\\Garmin\\watch\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="25" lineNum="19" parent="globals/Rez/Layouts" pc="268436953" symbol="WatchFace"/>
+<entry filename="c:\\Users\\TROY\\Documents\\Garmin\\watch\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="25" lineNum="21" parent="globals/Rez/Layouts" pc="268437042" symbol="WatchFace"/>
+<entry filename="c:\\Users\\TROY\\Documents\\Garmin\\watch\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="25" lineNum="23" parent="globals/Rez/Layouts" pc="268437131" symbol="WatchFace"/>
+<entry filename="c:\\Users\\TROY\\Documents\\Garmin\\watch\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="25" lineNum="25" parent="globals/Rez/Layouts" pc="268437216" symbol="WatchFace"/>
+<entry filename="c:\\Users\\TROY\\Documents\\Garmin\\watch\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="25" lineNum="27" parent="globals/Rez/Layouts" pc="268437300" symbol="WatchFace"/>
+<entry filename="c:\\Users\\TROY\\Documents\\Garmin\\watch\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="25" lineNum="29" parent="globals/Rez/Layouts" pc="268437386" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="12" object="true" symbol="watchView"/>
+<entry field="true" id="23" symbol="Man_Small"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry field="true" id="30" symbol="ColorRed"/>
+<entry field="true" id="33" symbol="MilitaryFormatTitle"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="9" module="true" symbol="HeartRate"/>
+<entry field="true" id="27" symbol="ColorBlue"/>
+<entry field="true" id="24" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="7" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="3" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="13" method="true" symbol="hrON"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry field="true" id="19" symbol="mySmallFont"/>
+<entry field="true" id="28" symbol="ColorDarkGray"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="22" symbol="Man"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="15" symbol="cy"/>
+<entry field="true" id="14" symbol="cx"/>
+<entry field="true" id="31" symbol="ColorWhite"/>
+<entry field="true" id="26" symbol="ColorBlack"/>
+<entry id="4" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="16" method="true" symbol="getFont"/>
+<entry id="17" method="true" symbol="getSmallFont"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="21" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="25" symbol="BackgroundColorTitle"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="10" module="true" symbol="Utils"/>
+<entry id="8" module="true" symbol="globals/Utils"/>
+<entry id="8389190" method="true" symbol="drawText"/>
+<entry field="true" id="29" symbol="ColorLightGray"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry field="true" id="18" symbol="myFont"/>
+<entry field="true" id="32" symbol="ForegroundColorTitle"/>
+<entry id="20" module="true" symbol="Layouts"/>
+<entry id="8389701" object="true" symbol="HeartRateIterator"/>
+<entry id="2" module="true" symbol="globals/HeartRate"/>
+<entry id="11" object="true" symbol="watchApp"/>
+<entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435836" name="dc" stackId="1" startPc="268435537"/>
+<entry arg="true" endPc="268435836" name="cx" stackId="2" startPc="268435537"/>
+<entry arg="true" endPc="268435836" name="cy" stackId="3" startPc="268435537"/>
+<entry endPc="268435835" name="heart_rate" stackId="4" startPc="268435548"/>
+<entry endPc="268435835" name="hrIter" stackId="5" startPc="268435548"/>
+<entry endPc="268435620" name="hr" stackId="6" startPc="268435575"/>
+<entry endPc="268435835" name="hStr" stackId="7" startPc="268435548"/>
+<entry endPc="268435835" name="fH" stackId="8" startPc="268435548"/>
+<entry endPc="268435835" name="x" stackId="9" startPc="268435548"/>
+<entry arg="true" endPc="268435929" name="dc" stackId="1" startPc="268435860"/>
+<entry arg="true" endPc="268435982" name="dc" stackId="1" startPc="268435930"/>
+<entry arg="true" endPc="268435982" name="x" stackId="2" startPc="268435930"/>
+<entry arg="true" endPc="268435982" name="y" stackId="3" startPc="268435930"/>
+<entry arg="true" endPc="268435982" name="text" stackId="4" startPc="268435930"/>
+<entry endPc="268435981" name="myFont" stackId="5" startPc="268435933"/>
+<entry arg="true" endPc="268436663" name="dc" stackId="1" startPc="268435998"/>
+<entry endPc="268436662" name="hrIterator" stackId="2" startPc="268436001"/>
+<entry endPc="268436662" name="sample" stackId="3" startPc="268436001"/>
+<entry endPc="268436662" name="info" stackId="4" startPc="268436001"/>
+<entry endPc="268436662" name="lastHour" stackId="5" startPc="268436001"/>
+<entry endPc="268436662" name="lastMinute" stackId="6" startPc="268436001"/>
+<entry endPc="268436662" name="heartRate" stackId="7" startPc="268436001"/>
+<entry endPc="268436662" name="steps" stackId="8" startPc="268436001"/>
+<entry endPc="268436662" name="calories" stackId="9" startPc="268436001"/>
+<entry endPc="268436662" name="clockTime" stackId="10" startPc="268436001"/>
+<entry endPc="268436662" name="hours" stackId="11" startPc="268436001"/>
+<entry endPc="268436662" name="minutes" stackId="12" startPc="268436001"/>
+<entry endPc="268436662" name="text_height_digit" stackId="13" startPc="268436001"/>
+<entry endPc="268436662" name="hour_width_digit" stackId="14" startPc="268436001"/>
+<entry endPc="268436662" name="minute_width_digit" stackId="15" startPc="268436001"/>
+<entry endPc="268436662" name="viewHeartRate" stackId="16" startPc="268436001"/>
+<entry endPc="268436662" name="viewSteps" stackId="17" startPc="268436001"/>
+<entry endPc="268436662" name="viewCalories" stackId="18" startPc="268436001"/>
+<entry endPc="268436700" name="dictionary" stackId="1" startPc="268436667"/>
+<entry arg="true" endPc="268436746" name="dc" stackId="1" startPc="268436702"/>
+<entry arg="true" endPc="268437415" name="dc" stackId="1" startPc="268436942"/>
+<entry endPc="268437415" name="rez_cmp_local_text_HourLabel" stackId="2" startPc="268436953"/>
+<entry endPc="268437415" name="rez_cmp_local_text_MinuteLabel" stackId="3" startPc="268436953"/>
+<entry endPc="268437415" name="rez_cmp_local_text_HeartRatesLabel" stackId="4" startPc="268436953"/>
+<entry endPc="268437415" name="rez_cmp_local_text_StepsLabel" stackId="5" startPc="268436953"/>
+<entry endPc="268437415" name="rez_cmp_local_text_CaloriesLabel" stackId="6" startPc="268436953"/>
+</localVars>
+<deviceInfo deviceVersion="90325a5ba4f163ec5ad32845d0e0beee034c6cee" partNumber="006-B4375-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Man"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Man_Small"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="85" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/HeartRate" offset="179" parentId="globals" symbolId="HeartRate" type="module"/>
+<dataEntry label="globals/watchView" offset="223" parentId="globals" symbolId="watchView" type="class"/>
+<dataEntry label="globals/Background" offset="348" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry label="globals/Utils" offset="401" parentId="globals" symbolId="Utils" type="module"/>
+<dataEntry label="globals/Rez" offset="463" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/watchApp" offset="525" parentId="globals" symbolId="watchApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="605" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="640" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="675" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="719" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="HeartRate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="watchView" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435492" name="getApp" startPc="268435472">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="Background" startPc="268435493">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Utils">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="watchApp" startPc="268435525">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435836" name="drawText" parent="HeartRate" startPc="268435537">
+<param id="dc"/>
+<param id="cx"/>
+<param id="cy"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435859" name="hrON" parent="HeartRate" startPc="268435837">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435929" name="onLayout" parent="watchView" startPc="268435860">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435982" name="drawText" parent="watchView" startPc="268435930">
+<param id="dc"/>
+<param id="x"/>
+<param id="y"/>
+<param id="text"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435997" name="initialize" parent="watchView" startPc="268435983">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436663" name="onUpdate" parent="watchView" startPc="268435998">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436701" name="initialize" parent="Background" startPc="268436664">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436746" name="draw" parent="Background" startPc="268436702">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436812" name="getSmallFont" parent="Utils" startPc="268436747">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436878" name="getFont" parent="Utils" startPc="268436813">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436881" name="onStart" parent="watchApp" startPc="268436879">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436895" name="onSettingsChanged" parent="watchApp" startPc="268436882">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436923" name="getInitialView" parent="watchApp" startPc="268436896">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436938" name="initialize" parent="watchApp" startPc="268436924">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436941" name="onStop" parent="watchApp" startPc="268436939">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437415" name="WatchFace" parent="Layouts" startPc="268436942">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

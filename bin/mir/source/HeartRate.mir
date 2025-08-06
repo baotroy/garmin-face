@@ -1,0 +1,295 @@
+[ @file = "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; @symbol_usingAlias = [Gfx,2,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [ActivityMonitor,4,13,28]; @symbol_usingAlias = [Act,4,32,35]; ]
+using Toybox.ActivityMonitor as :Act;
+[ @file = "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [System,5,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc"; @line = 6; @symbol_moduledef = [HeartRate,6,7,16]; ]
+module HeartRate {
+    [ @file = "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc"; @line = 8; @symbol_functiondef = [drawText,8,10,18]; @symbol_param<0> = [dc,8,19,21]; @symbol_param<1> = [cx,8,23,25]; @symbol_param<2> = [cy,8,27,29]; ]
+    function drawText(dc, cx, cy) {
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_start:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 9 8 ]
+        [ "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_start" "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_stop" ]
+        %heart_rate.1 = local;
+        symbol [ heart_rate %heart_rate.1 9 12 22 ];
+        %tmp.1 = 666;
+        lputv %heart_rate.1 %tmp.1;
+        symbol [ heart_rate %heart_rate.1 9 12 22 ];
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 11 8 ]
+        [ "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_start" "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_stop" ]
+        %hrIter.2 = local;
+        symbol [ hrIter %hrIter.2 11 12 18 ];
+        symbol [ Act %tmp.2 11 21 24 ];
+        %tmp.2 = getm $.Toybox.ActivityMonitor;
+        symbol [ getHeartRateHistory %tmp.3 11 25 44 ];
+        %tmp.3 = getv function %tmp.2 :getHeartRateHistory;
+        %tmp.4 = null;
+        %tmp.5 = true;
+        %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
+        lputv %hrIter.2 %tmp.6;
+        symbol [ hrIter %hrIter.2 11 12 18 ];
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 12 8 ]
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_12_8_15_8_if_stmt:
+        %tmp.7 = lgetv %hrIter.2;
+        symbol [ hrIter %tmp.7 12 11 17 ];
+        %tmp.8 = null;
+        %tmp.9 = ne %tmp.7 %tmp.8;
+        bf %tmp.9 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_12_8_15_8_if_end;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_12_8_15_8_if_true:
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_12_26_15_8_start:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 13 12 ]
+        [ "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_12_26_15_8_start" "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_12_26_15_8_stop" ]
+        %hr.3 = local;
+        symbol [ hr %hr.3 13 16 18 ];
+        %tmp.10 = lgetv %hrIter.2;
+        symbol [ hrIter %tmp.10 13 21 27 ];
+        %tmp.11 = as %tmp.10 { (!Null) };
+        symbol [ next %tmp.12 13 28 32 ];
+        %tmp.12 = getv function %tmp.11 :next;
+        %tmp.13 = invoke %tmp.11 %tmp.12();
+        lputv %hr.3 %tmp.13;
+        symbol [ hr %hr.3 13 16 18 ];
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 14 12 ]
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_begin:
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_26_14_82_begin:
+        %tmp.14 = lgetv %hr.3;
+        symbol [ hr %tmp.14 14 26 28 ];
+        symbol [ heartRate %tmp.15 14 29 38 ];
+        %tmp.15 = getv %tmp.14 :heartRate;
+        symbol [ Act %tmp.16 14 42 45 ];
+        %tmp.16 = getm $.Toybox.ActivityMonitor;
+        symbol [ INVALID_HR_SAMPLE %tmp.17 14 46 63 ];
+        %tmp.17 = getv %tmp.16 :INVALID_HR_SAMPLE;
+        %tmp.18 = ne %tmp.15 %tmp.17;
+        bf %tmp.18 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_false;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_67_14_82_true:
+        %tmp.19 = lgetv %hr.3;
+        symbol [ hr %tmp.19 14 67 69 ];
+        symbol [ heartRate %tmp.20 14 70 79 ];
+        %tmp.20 = getv %tmp.19 :heartRate;
+        %tmp.21 = 0;
+        %tmp.22 = gt %tmp.20 %tmp.21;
+        push %tmp.22;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_67_14_82_end:
+        %tmp.23 = phi [%tmp.18 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_26_14_82_begin] [%tmp.22 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_67_14_82_true] [%tmp.23 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_67_14_82_end];
+        bf %tmp.23 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_false;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_true:
+        %tmp.24 = lgetv %hr.3;
+        symbol [ hr %tmp.24 14 87 89 ];
+        symbol [ heartRate %tmp.25 14 90 99 ];
+        %tmp.25 = getv %tmp.24 :heartRate;
+        push %tmp.25;
+        goto @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_end;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_false:
+        %tmp.26 = 0;
+        push %tmp.26;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_end:
+        %tmp.27 = phi [%tmp.23 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_begin] [%tmp.25 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_true] [%tmp.26 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_false] [%tmp.27 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_14_25_14_102_end];
+        lputv %heart_rate.1 %tmp.27;
+        symbol [ heart_rate %heart_rate.1 14 12 22 ];
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_12_26_15_8_stop:
+        goto @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_12_8_15_8_if_end;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_12_8_15_8_if_end:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 16 8 ]
+        symbol [ System %tmp.28 16 8 14 ];
+        %tmp.28 = getm $.Toybox.System;
+        symbol [ print %tmp.29 16 15 20 ];
+        %tmp.29 = getv function %tmp.28 :print;
+        %tmp.30 = "Heart Rate: ";
+        %tmp.31 = lgetv %heart_rate.1;
+        symbol [ heart_rate %tmp.31 16 38 48 ];
+        %tmp.32 = add %tmp.30 %tmp.31;
+        invoke %tmp.28 %tmp.29(%tmp.32);
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 19 8 ]
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_19_8_30_8_if_stmt:
+        %tmp.33 = lgetv %heart_rate.1;
+        symbol [ heart_rate %tmp.33 19 12 22 ];
+        %tmp.34 = 100;
+        %tmp.35 = gte %tmp.33 %tmp.34;
+        bf %tmp.35 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_19_8_30_8_if_false;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_19_8_30_8_if_true:
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_19_31_21_8_start:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 20 13 ]
+        %tmp.36 = lgetv %dc;
+        symbol [ dc %tmp.36 20 13 15 ];
+        symbol [ setColor %tmp.37 20 16 24 ];
+        %tmp.37 = getv function %tmp.36 :setColor;
+        symbol [ Gfx %tmp.38 20 25 28 ];
+        %tmp.38 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.39 20 29 38 ];
+        %tmp.39 = getv %tmp.38 :COLOR_RED;
+        symbol [ Gfx %tmp.40 20 40 43 ];
+        %tmp.40 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.41 20 44 61 ];
+        %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
+        invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41);
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_19_31_21_8_stop:
+        goto @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_19_8_30_8_if_end;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_19_8_30_8_if_false:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 22 13 ]
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_22_13_30_8_if_stmt:
+        %tmp.42 = lgetv %heart_rate.1;
+        symbol [ heart_rate %tmp.42 22 17 27 ];
+        %tmp.43 = 80;
+        %tmp.44 = gte %tmp.42 %tmp.43;
+        bf %tmp.44 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_22_13_30_8_if_false;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_22_13_30_8_if_true:
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_22_35_24_8_start:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 23 13 ]
+        %tmp.45 = lgetv %dc;
+        symbol [ dc %tmp.45 23 13 15 ];
+        symbol [ setColor %tmp.46 23 16 24 ];
+        %tmp.46 = getv function %tmp.45 :setColor;
+        symbol [ Gfx %tmp.47 23 25 28 ];
+        %tmp.47 = getm $.Toybox.Graphics;
+        symbol [ COLOR_ORANGE %tmp.48 23 29 41 ];
+        %tmp.48 = getv %tmp.47 :COLOR_ORANGE;
+        symbol [ Gfx %tmp.49 23 43 46 ];
+        %tmp.49 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.50 23 47 64 ];
+        %tmp.50 = getv %tmp.49 :COLOR_TRANSPARENT;
+        invoke %tmp.45 %tmp.46(%tmp.48, %tmp.50);
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_22_35_24_8_stop:
+        goto @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_22_13_30_8_if_end;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_22_13_30_8_if_false:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 25 13 ]
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_25_13_30_8_if_stmt:
+        %tmp.51 = lgetv %heart_rate.1;
+        symbol [ heart_rate %tmp.51 25 17 27 ];
+        %tmp.52 = 60;
+        %tmp.53 = gte %tmp.51 %tmp.52;
+        bf %tmp.53 @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_25_13_30_8_if_else_false;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_25_13_30_8_if_true:
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_25_35_27_8_start:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 26 13 ]
+        %tmp.54 = lgetv %dc;
+        symbol [ dc %tmp.54 26 13 15 ];
+        symbol [ setColor %tmp.55 26 16 24 ];
+        %tmp.55 = getv function %tmp.54 :setColor;
+        symbol [ Gfx %tmp.56 26 25 28 ];
+        %tmp.56 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.57 26 29 41 ];
+        %tmp.57 = getv %tmp.56 :COLOR_YELLOW;
+        symbol [ Gfx %tmp.58 26 43 46 ];
+        %tmp.58 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.59 26 47 64 ];
+        %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+        invoke %tmp.54 %tmp.55(%tmp.57, %tmp.59);
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_25_35_27_8_stop:
+        goto @C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_25_13_30_8_if_end;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_25_13_30_8_if_else_false:
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_28_13_30_8_start:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 29 13 ]
+        %tmp.60 = lgetv %dc;
+        symbol [ dc %tmp.60 29 13 15 ];
+        symbol [ setColor %tmp.61 29 16 24 ];
+        %tmp.61 = getv function %tmp.60 :setColor;
+        symbol [ Gfx %tmp.62 29 25 28 ];
+        %tmp.62 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.63 29 29 40 ];
+        %tmp.63 = getv %tmp.62 :COLOR_WHITE;
+        symbol [ Gfx %tmp.64 29 42 45 ];
+        %tmp.64 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.65 29 46 63 ];
+        %tmp.65 = getv %tmp.64 :COLOR_TRANSPARENT;
+        invoke %tmp.60 %tmp.61(%tmp.63, %tmp.65);
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_28_13_30_8_stop:
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_25_13_30_8_if_end:
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_22_13_30_8_if_end:
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_19_8_30_8_if_end:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 32 8 ]
+        [ "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_start" "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_stop" ]
+        %hStr.4 = local;
+        symbol [ hStr %hStr.4 32 12 16 ];
+        %tmp.66 = lgetv %heart_rate.1;
+        symbol [ heart_rate %tmp.66 32 19 29 ];
+        symbol [ toString %tmp.67 32 30 38 ];
+        %tmp.67 = getv function %tmp.66 :toString;
+        %tmp.68 = invoke %tmp.66 %tmp.67();
+        lputv %hStr.4 %tmp.68;
+        symbol [ hStr %hStr.4 32 12 16 ];
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 35 8 ]
+        [ "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_start" "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_stop" ]
+        %fH.5 = local;
+        symbol [ fH %fH.5 35 12 14 ];
+        %tmp.69 = lgetv %dc;
+        symbol [ dc %tmp.69 35 17 19 ];
+        symbol [ getFontHeight %tmp.70 35 20 33 ];
+        %tmp.70 = getv function %tmp.69 :getFontHeight;
+        symbol [ Utils %tmp.72 35 34 39 ];
+        %tmp.72 = getv ? :Utils;
+        symbol [ getSmallFont %tmp.73 35 40 52 ];
+        %tmp.73 = getv function %tmp.72 :getSmallFont;
+        %tmp.74 = invoke %tmp.72 %tmp.73();
+        %tmp.75 = invoke %tmp.69 %tmp.70(%tmp.74);
+        lputv %fH.5 %tmp.75;
+        symbol [ fH %fH.5 35 12 14 ];
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 36 8 ]
+        [ "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_start" "C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_stop" ]
+        %x.6 = local;
+        symbol [ x %x.6 36 12 13 ];
+        %tmp.76 = lgetv %dc;
+        symbol [ dc %tmp.76 36 16 18 ];
+        symbol [ getTextWidthInPixels %tmp.77 36 19 39 ];
+        %tmp.77 = getv function %tmp.76 :getTextWidthInPixels;
+        %tmp.78 = lgetv %hStr.4;
+        symbol [ hStr %tmp.78 36 40 44 ];
+        symbol [ Utils %tmp.80 36 46 51 ];
+        %tmp.80 = getv ? :Utils;
+        symbol [ getSmallFont %tmp.81 36 52 64 ];
+        %tmp.81 = getv function %tmp.80 :getSmallFont;
+        %tmp.82 = invoke %tmp.80 %tmp.81();
+        %tmp.83 = invoke %tmp.76 %tmp.77(%tmp.78, %tmp.82);
+        lputv %x.6 %tmp.83;
+        symbol [ x %x.6 36 12 13 ];
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 37 8 ]
+        %tmp.84 = lgetv %dc;
+        symbol [ dc %tmp.84 37 8 10 ];
+        symbol [ drawText %tmp.85 37 11 19 ];
+        %tmp.85 = getv function %tmp.84 :drawText;
+        %tmp.86 = lgetv %cx;
+        symbol [ cx %tmp.86 37 20 22 ];
+        %tmp.87 = 2;
+        %tmp.88 = div %tmp.86 %tmp.87;
+        %tmp.89 = 3;
+        %tmp.90 = lgetv %cy;
+        symbol [ cy %tmp.90 37 28 30 ];
+        %tmp.91 = mul %tmp.89 %tmp.90;
+        %tmp.92 = 4;
+        %tmp.93 = div %tmp.91 %tmp.92;
+        symbol [ Utils %tmp.95 37 33 38 ];
+        %tmp.95 = getv ? :Utils;
+        symbol [ getSmallFont %tmp.96 37 39 51 ];
+        %tmp.96 = getv function %tmp.95 :getSmallFont;
+        %tmp.97 = invoke %tmp.95 %tmp.96();
+        %tmp.98 = lgetv %hStr.4;
+        symbol [ hStr %tmp.98 37 55 59 ];
+        symbol [ Gfx %tmp.99 37 61 64 ];
+        %tmp.99 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.100 37 65 84 ];
+        %tmp.100 = getv %tmp.99 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.84 %tmp.85(%tmp.88, %tmp.93, %tmp.97, %tmp.98, %tmp.100);
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_8_31_49_1_stop:
+    }
+    [ @file = "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc"; @line = 51; @symbol_functiondef = [hrON,51,13,17]; ]
+    function hrON() {
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_51_20_53_4_start:
+[ "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc" 52 8 ]
+        symbol [ Act %tmp.1 52 15 18 ];
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        %tmp.3 = const :HeartRateIterator;
+        symbol [ HeartRateIterator %tmp.3 52 24 41 const ];
+        %tmp.4 = canhazplz %tmp.1 %tmp.3;
+        ret %tmp.4;
+C__Users_TROY_Documents_Garmin_watch_source_HeartRate_mc_51_20_53_4_stop:
+    }
+}
+[ @file = "C:\Users\TROY\Documents\Garmin\watch\source\HeartRate.mc"; @line = 2; ]
+<init> {
+}

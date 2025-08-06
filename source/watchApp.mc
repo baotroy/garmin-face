@@ -2,7 +2,7 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class watch2App extends Application.AppBase {
+class watchApp extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
@@ -18,7 +18,7 @@ class watch2App extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new watch2View() ];
+        return [ new watchView() ];
     }
 
     // New app settings have been received so trigger a UI update
@@ -28,6 +28,6 @@ class watch2App extends Application.AppBase {
 
 }
 
-function getApp() as watch2App {
-    return Application.getApp() as watch2App;
+function getApp() as watchApp {
+    return Application.getApp() as watchApp;
 }
