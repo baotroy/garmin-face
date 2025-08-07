@@ -41,7 +41,7 @@ class watchView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         if (widgetFont == null) {
-            widgetFont = Gfx.FONT_TINY;
+            widgetFont = Utils.getSmallFont();
             widgetFontHeight = dc.getFontHeight(widgetFont);
         }
          // reset screen

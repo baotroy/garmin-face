@@ -1,0 +1,22 @@
+info face="Vipnagorgialla-BoldItalic" size=72 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=1,1,1,1 spacing=0,0
+common lineHeight=76 base=65 scaleW=199 scaleH=200 pages=1 packed=0
+page id=0 file="Vipnagorgialla-BoldItalic.png"
+chars count=11
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=24 page=0 chnl=15
+char id=48 x=0 y=100 width=67 height=50 xoffset=1 yoffset=16 xadvance=65 page=0 chnl=15
+char id=49 x=67 y=100 width=31 height=50 xoffset=1 yoffset=16 xadvance=28 page=0 chnl=15
+char id=50 x=0 y=0 width=69 height=50 xoffset=-1 yoffset=16 xadvance=65 page=0 chnl=15
+char id=51 x=0 y=150 width=67 height=50 xoffset=0 yoffset=16 xadvance=64 page=0 chnl=15
+char id=52 x=136 y=0 width=63 height=50 xoffset=-1 yoffset=16 xadvance=62 page=0 chnl=15
+char id=53 x=0 y=50 width=68 height=50 xoffset=1 yoffset=16 xadvance=65 page=0 chnl=15
+char id=54 x=69 y=0 width=67 height=50 xoffset=1 yoffset=16 xadvance=64 page=0 chnl=15
+char id=55 x=135 y=50 width=63 height=50 xoffset=-1 yoffset=16 xadvance=56 page=0 chnl=15
+char id=56 x=67 y=150 width=66 height=50 xoffset=1 yoffset=16 xadvance=65 page=0 chnl=15
+char id=57 x=68 y=50 width=67 height=50 xoffset=1 yoffset=16 xadvance=65 page=0 chnl=15
+kernings count=6
+kerning first=55 second=48 amount=-1
+kerning first=55 second=50 amount=-2
+kerning first=55 second=52 amount=-11
+kerning first=55 second=54 amount=-1
+kerning first=55 second=56 amount=-1
+kerning first=55 second=57 amount=-1
