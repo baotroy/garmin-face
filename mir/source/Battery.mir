@@ -1,0 +1,73 @@
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; @symbol_usingAlias = [Gfx,2,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [ActivityMonitor,4,13,28]; @symbol_usingAlias = [Act,4,32,35]; ]
+using Toybox.ActivityMonitor as :Act;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [System,5,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc"; @line = 6; @symbol_moduledef = [Battery,6,7,14]; ]
+module Battery {
+    [ @file = "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc"; @line = 8; @symbol_functiondef = [drawText,8,10,18]; @symbol_param<0> = [dc,8,19,21]; @symbol_param<1> = [value,8,23,28]; @symbol_param<2> = [cx,8,30,32]; @symbol_param<3> = [cy,8,34,36]; @symbol_param<4> = [font,8,38,42]; @symbol_param<5> = [fontHeight,8,44,54]; ]
+    function drawText(dc, value, cx, cy, font, fontHeight) {
+_Users_bao_ws_MonkeyC_watch2_source_Battery_mc_8_56_13_1_start:
+[ "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc" 9 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 9 8 10 ];
+        symbol [ setColor %tmp.2 9 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Gfx %tmp.3 9 20 23 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.4 9 24 37 ];
+        %tmp.4 = getv %tmp.3 :COLOR_LT_GRAY;
+        symbol [ Gfx %tmp.5 9 39 42 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.6 9 43 60 ];
+        %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc" 12 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 12 8 10 ];
+        symbol [ drawText %tmp.8 12 11 19 ];
+        %tmp.8 = getv function %tmp.7 :drawText;
+        %tmp.9 = lgetv %cx;
+        symbol [ cx %tmp.9 12 20 22 ];
+        %tmp.10 = lgetv %cy;
+        symbol [ cy %tmp.10 12 24 26 ];
+        %tmp.11 = 2;
+        %tmp.12 = mul %tmp.10 %tmp.11;
+        %tmp.13 = lgetv %fontHeight;
+        symbol [ fontHeight %tmp.13 12 30 40 ];
+        %tmp.14 = sub %tmp.12 %tmp.13;
+        %tmp.15 = lgetv %font;
+        symbol [ font %tmp.15 12 42 46 ];
+        %tmp.16 = lgetv %value;
+        symbol [ value %tmp.16 12 48 53 ];
+        %tmp.17 = "%";
+        %tmp.18 = add %tmp.16 %tmp.17;
+        symbol [ Gfx %tmp.19 12 61 64 ];
+        %tmp.19 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.20 12 65 84 ];
+        %tmp.20 = getv %tmp.19 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.7 %tmp.8(%tmp.9, %tmp.14, %tmp.15, %tmp.18, %tmp.20);
+_Users_bao_ws_MonkeyC_watch2_source_Battery_mc_8_56_13_1_stop:
+    }
+    [ @file = "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc"; @line = 15; @symbol_functiondef = [hrON,15,13,17]; ]
+    function hrON() {
+_Users_bao_ws_MonkeyC_watch2_source_Battery_mc_15_20_17_4_start:
+[ "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc" 16 8 ]
+        symbol [ Act %tmp.1 16 15 18 ];
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        %tmp.3 = const :HeartRateIterator;
+        symbol [ HeartRateIterator %tmp.3 16 24 41 const ];
+        %tmp.4 = canhazplz %tmp.1 %tmp.3;
+        ret %tmp.4;
+_Users_bao_ws_MonkeyC_watch2_source_Battery_mc_15_20_17_4_stop:
+    }
+}
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Battery.mc"; @line = 2; ]
+<init> {
+}

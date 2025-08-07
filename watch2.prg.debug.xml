@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/Users/bao/ws/MonkeyC/watch2/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="1" lineNum="13" parent="globals/watchView" pc="268435457" symbol="&lt;init&gt;"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchApp.mc" id="2" lineNum="31" parent="globals" pc="268435469" symbol="getApp"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchApp.mc" id="2" lineNum="32" parent="globals" pc="268435479" symbol="getApp"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchBackground.mc" id="3" lineNum="6" parent="globals/Background" pc="268435490" symbol="&lt;init&gt;"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/gen/006-B4375-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435502" symbol="&lt;init&gt;"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchApp.mc" id="5" lineNum="5" parent="globals/watchApp" pc="268435522" symbol="&lt;init&gt;"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/HeartRate.mc" id="6" lineNum="8" parent="globals/HeartRate" pc="268435534" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/HeartRate.mc" id="6" lineNum="29" parent="globals/HeartRate" pc="268435545" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/HeartRate.mc" id="6" lineNum="33" parent="globals/HeartRate" pc="268435554" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/HeartRate.mc" id="6" lineNum="35" parent="globals/HeartRate" pc="268435583" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/HeartRate.mc" id="6" lineNum="36" parent="globals/HeartRate" pc="268435592" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/HeartRate.mc" id="7" lineNum="40" parent="globals/HeartRate" pc="268435628" symbol="hrON"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/HeartRate.mc" id="7" lineNum="41" parent="globals/HeartRate" pc="268435638" symbol="hrON"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="10" lineNum="180" parent="globals/watchView" pc="268435651" symbol="arrayMax"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="10" lineNum="181" parent="globals/watchView" pc="268435654" symbol="arrayMax"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="10" lineNum="182" parent="globals/watchView" pc="268435673" symbol="arrayMax"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="10" lineNum="184" parent="globals/watchView" pc="268435675" symbol="arrayMax"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="10" lineNum="185" parent="globals/watchView" pc="268435681" symbol="arrayMax"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="10" lineNum="186" parent="globals/watchView" pc="268435698" symbol="arrayMax"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="10" lineNum="187" parent="globals/watchView" pc="268435709" symbol="arrayMax"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="10" lineNum="190" parent="globals/watchView" pc="268435726" symbol="arrayMax"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="11" lineNum="28" parent="globals/watchView" pc="268435729" symbol="onLayout"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="11" lineNum="30" parent="globals/watchView" pc="268435731" symbol="onLayout"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="11" lineNum="31" parent="globals/watchView" pc="268435748" symbol="onLayout"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="11" lineNum="32" parent="globals/watchView" pc="268435765" symbol="onLayout"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="12" lineNum="173" parent="globals/watchView" pc="268435799" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="12" lineNum="174" parent="globals/watchView" pc="268435802" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="12" lineNum="177" parent="globals/watchView" pc="268435814" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="14" lineNum="23" parent="globals/watchView" pc="268435835" symbol="initialize"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="14" lineNum="24" parent="globals/watchView" pc="268435837" symbol="initialize"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="42" parent="globals/watchView" pc="268435850" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="43" parent="globals/watchView" pc="268435853" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="44" parent="globals/watchView" pc="268435862" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="45" parent="globals/watchView" pc="268435871" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="48" parent="globals/watchView" pc="268435892" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="49" parent="globals/watchView" pc="268435908" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="56" parent="globals/watchView" pc="268435916" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="57" parent="globals/watchView" pc="268435919" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="58" parent="globals/watchView" pc="268435931" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="59" parent="globals/watchView" pc="268435939" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="60" parent="globals/watchView" pc="268435947" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="61" parent="globals/watchView" pc="268435959" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="62" parent="globals/watchView" pc="268435972" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="63" parent="globals/watchView" pc="268435988" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="64" parent="globals/watchView" pc="268435994" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="65" parent="globals/watchView" pc="268436004" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="82" parent="globals/watchView" pc="268436040" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="83" parent="globals/watchView" pc="268436059" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="84" parent="globals/watchView" pc="268436067" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="87" parent="globals/watchView" pc="268436077" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="89" parent="globals/watchView" pc="268436097" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="98" parent="globals/watchView" pc="268436113" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="99" parent="globals/watchView" pc="268436134" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="100" parent="globals/watchView" pc="268436169" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="102" parent="globals/watchView" pc="268436204" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="103" parent="globals/watchView" pc="268436234" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="104" parent="globals/watchView" pc="268436241" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="105" parent="globals/watchView" pc="268436251" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="109" parent="globals/watchView" pc="268436276" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="111" parent="globals/watchView" pc="268436323" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="116" parent="globals/watchView" pc="268436367" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="117" parent="globals/watchView" pc="268436401" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="118" parent="globals/watchView" pc="268436435" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="119" parent="globals/watchView" pc="268436459" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="120" parent="globals/watchView" pc="268436472" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="121" parent="globals/watchView" pc="268436522" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="123" parent="globals/watchView" pc="268436572" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="124" parent="globals/watchView" pc="268436603" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="125" parent="globals/watchView" pc="268436621" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="126" parent="globals/watchView" pc="268436639" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="127" parent="globals/watchView" pc="268436663" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="129" parent="globals/watchView" pc="268436688" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="130" parent="globals/watchView" pc="268436724" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchView.mc" id="16" lineNum="132" parent="globals/watchView" pc="268436758" symbol="onUpdate"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchBackground.mc" id="17" lineNum="8" parent="globals/Background" pc="268436824" symbol="initialize"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchBackground.mc" id="17" lineNum="9" parent="globals/Background" pc="268436827" symbol="initialize"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchBackground.mc" id="17" lineNum="13" parent="globals/Background" pc="268436845" symbol="initialize"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchBackground.mc" id="18" lineNum="16" parent="globals/Background" pc="268436862" symbol="draw"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchBackground.mc" id="18" lineNum="20" parent="globals/Background" pc="268436864" symbol="draw"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Utils.mc" id="19" lineNum="19" parent="globals/Utils" pc="268436873" symbol="getSmallFont"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Utils.mc" id="19" lineNum="20" parent="globals/Utils" pc="268436883" symbol="getSmallFont"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Utils.mc" id="19" lineNum="21" parent="globals/Utils" pc="268436892" symbol="getSmallFont"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Utils.mc" id="19" lineNum="23" parent="globals/Utils" pc="268436930" symbol="getSmallFont"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Utils.mc" id="20" lineNum="9" parent="globals/Utils" pc="268436936" symbol="getFont"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Utils.mc" id="20" lineNum="10" parent="globals/Utils" pc="268436946" symbol="getFont"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Utils.mc" id="20" lineNum="11" parent="globals/Utils" pc="268436955" symbol="getFont"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Utils.mc" id="20" lineNum="16" parent="globals/Utils" pc="268436996" symbol="getFont"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Battery.mc" id="21" lineNum="8" parent="globals/Battery" pc="268437002" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Battery.mc" id="21" lineNum="9" parent="globals/Battery" pc="268437012" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Battery.mc" id="21" lineNum="12" parent="globals/Battery" pc="268437029" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Battery.mc" id="22" lineNum="15" parent="globals/Battery" pc="268437062" symbol="hrON"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Battery.mc" id="22" lineNum="16" parent="globals/Battery" pc="268437072" symbol="hrON"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Step.mc" id="23" lineNum="8" parent="globals/Step" pc="268437085" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Step.mc" id="23" lineNum="10" parent="globals/Step" pc="268437095" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Step.mc" id="23" lineNum="12" parent="globals/Step" pc="268437124" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Calories.mc" id="24" lineNum="8" parent="globals/Calories" pc="268437157" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Calories.mc" id="24" lineNum="13" parent="globals/Calories" pc="268437167" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Calories.mc" id="24" lineNum="14" parent="globals/Calories" pc="268437199" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Date.mc" id="25" lineNum="9" parent="globals/Date" pc="268437232" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Date.mc" id="25" lineNum="16" parent="globals/Date" pc="268437243" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Date.mc" id="25" lineNum="20" parent="globals/Date" pc="268437272" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/Date.mc" id="25" lineNum="24" parent="globals/Date" pc="268437293" symbol="drawText"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchApp.mc" id="27" lineNum="25" parent="globals/watchApp" pc="268437323" symbol="onSettingsChanged"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchApp.mc" id="27" lineNum="26" parent="globals/watchApp" pc="268437325" symbol="onSettingsChanged"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchApp.mc" id="28" lineNum="20" parent="globals/watchApp" pc="268437337" symbol="getInitialView"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchApp.mc" id="28" lineNum="21" parent="globals/watchApp" pc="268437339" symbol="getInitialView"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchApp.mc" id="29" lineNum="7" parent="globals/watchApp" pc="268437365" symbol="initialize"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/source/watchApp.mc" id="29" lineNum="8" parent="globals/watchApp" pc="268437367" symbol="initialize"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/gen/006-B4375-00/source/Rez.mcgen" id="31" lineNum="18" parent="globals/Rez/Layouts" pc="268437380" symbol="WatchFace"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/gen/006-B4375-00/source/Rez.mcgen" id="31" lineNum="19" parent="globals/Rez/Layouts" pc="268437391" symbol="WatchFace"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/gen/006-B4375-00/source/Rez.mcgen" id="31" lineNum="21" parent="globals/Rez/Layouts" pc="268437480" symbol="WatchFace"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/gen/006-B4375-00/source/Rez.mcgen" id="31" lineNum="23" parent="globals/Rez/Layouts" pc="268437569" symbol="WatchFace"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/gen/006-B4375-00/source/Rez.mcgen" id="31" lineNum="25" parent="globals/Rez/Layouts" pc="268437654" symbol="WatchFace"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/gen/006-B4375-00/source/Rez.mcgen" id="31" lineNum="27" parent="globals/Rez/Layouts" pc="268437738" symbol="WatchFace"/>
+<entry filename="/Users/bao/ws/MonkeyC/watch2/gen/006-B4375-00/source/Rez.mcgen" id="31" lineNum="29" parent="globals/Rez/Layouts" pc="268437824" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="20" object="true" symbol="watchView"/>
+<entry field="true" id="34" symbol="Man_Small"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry field="true" id="8388737" symbol="calories"/>
+<entry field="true" id="41" symbol="ColorRed"/>
+<entry field="true" id="44" symbol="MilitaryFormatTitle"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="4" module="true" symbol="globals/Date"/>
+<entry field="true" id="25" symbol="widgetFont"/>
+<entry id="16" module="true" symbol="HeartRate"/>
+<entry field="true" id="38" symbol="ColorBlue"/>
+<entry id="3" module="true" symbol="globals/Calories"/>
+<entry field="true" id="35" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="10" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="8388912" symbol="steps"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="6" module="true" symbol="globals/Rez"/>
+<entry id="2" module="true" symbol="globals/Battery"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="21" method="true" symbol="hrON"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry field="true" id="30" symbol="mySmallFont"/>
+<entry field="true" id="39" symbol="ColorDarkGray"/>
+<entry id="9" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="33" symbol="Man"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="15" module="true" symbol="Date"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="24" symbol="cy"/>
+<entry field="true" id="23" symbol="cx"/>
+<entry field="true" id="42" symbol="ColorWhite"/>
+<entry field="true" id="37" symbol="ColorBlack"/>
+<entry id="7" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="11" module="true" symbol="globals/Step"/>
+<entry id="27" method="true" symbol="getFont"/>
+<entry id="28" method="true" symbol="getSmallFont"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="22" method="true" symbol="arrayMax"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="32" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="36" symbol="BackgroundColorTitle"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="13" module="true" symbol="Battery"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="18" module="true" symbol="Utils"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry id="17" module="true" symbol="Step"/>
+<entry id="12" module="true" symbol="globals/Utils"/>
+<entry id="8389190" method="true" symbol="drawText"/>
+<entry field="true" id="40" symbol="ColorLightGray"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry field="true" id="29" symbol="myFont"/>
+<entry field="true" id="43" symbol="ForegroundColorTitle"/>
+<entry id="31" module="true" symbol="Layouts"/>
+<entry id="14" module="true" symbol="Calories"/>
+<entry id="8389701" object="true" symbol="HeartRateIterator"/>
+<entry field="true" id="26" symbol="widgetFontHeight"/>
+<entry id="5" module="true" symbol="globals/HeartRate"/>
+<entry id="19" object="true" symbol="watchApp"/>
+<entry id="8" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435627" name="dc" stackId="1" startPc="268435534"/>
+<entry arg="true" endPc="268435627" name="heart_rate" stackId="2" startPc="268435534"/>
+<entry arg="true" endPc="268435627" name="cx" stackId="3" startPc="268435534"/>
+<entry arg="true" endPc="268435627" name="cy" stackId="4" startPc="268435534"/>
+<entry arg="true" endPc="268435627" name="font" stackId="5" startPc="268435534"/>
+<entry arg="true" endPc="268435627" name="fontHeight" stackId="6" startPc="268435534"/>
+<entry endPc="268435626" name="hStr" stackId="7" startPc="268435545"/>
+<entry arg="true" endPc="268435728" name="arr" stackId="1" startPc="268435651"/>
+<entry endPc="268435725" name="i" stackId="3" startPc="268435698"/>
+<entry arg="true" endPc="268435798" name="dc" stackId="1" startPc="268435729"/>
+<entry arg="true" endPc="268435834" name="dc" stackId="1" startPc="268435799"/>
+<entry arg="true" endPc="268435834" name="x" stackId="2" startPc="268435799"/>
+<entry arg="true" endPc="268435834" name="y" stackId="3" startPc="268435799"/>
+<entry arg="true" endPc="268435834" name="text" stackId="4" startPc="268435799"/>
+<entry endPc="268435833" name="myFont" stackId="5" startPc="268435802"/>
+<entry arg="true" endPc="268436823" name="dc" stackId="1" startPc="268435850"/>
+<entry endPc="268436822" name="heartRate" stackId="2" startPc="268435853"/>
+<entry endPc="268436822" name="clockTime" stackId="3" startPc="268435853"/>
+<entry endPc="268436822" name="hours" stackId="4" startPc="268435853"/>
+<entry endPc="268436822" name="minutes" stackId="5" startPc="268435853"/>
+<entry endPc="268436822" name="stats" stackId="6" startPc="268435853"/>
+<entry endPc="268436039" name="hrIter" stackId="7" startPc="268435972"/>
+<entry endPc="268436039" name="hr" stackId="8" startPc="268435994"/>
+<entry endPc="268436822" name="text_height_digit" stackId="9" startPc="268435853"/>
+<entry endPc="268436822" name="hour_width_digit" stackId="10" startPc="268435853"/>
+<entry endPc="268436822" name="minute_width_digit" stackId="11" startPc="268435853"/>
+<entry endPc="268436822" name="dayOfWeek" stackId="12" startPc="268435853"/>
+<entry endPc="268436822" name="dayOfWeekNames" stackId="13" startPc="268435853"/>
+<entry endPc="268436822" name="dayOfWeekName" stackId="14" startPc="268435853"/>
+<entry endPc="268436822" name="date" stackId="15" startPc="268435853"/>
+<entry endPc="268436822" name="xStep" stackId="16" startPc="268435853"/>
+<entry endPc="268436822" name="xCalories" stackId="17" startPc="268435853"/>
+<entry endPc="268436822" name="xMaxFirstCol" stackId="18" startPc="268435853"/>
+<entry endPc="268436822" name="xFirstCol" stackId="19" startPc="268435853"/>
+<entry endPc="268436822" name="strHeartRate" stackId="20" startPc="268435853"/>
+<entry endPc="268436822" name="xHeartRate" stackId="21" startPc="268435853"/>
+<entry endPc="268436822" name="xDayOfWeekName" stackId="22" startPc="268435853"/>
+<entry endPc="268436822" name="xMaxSecondCol" stackId="23" startPc="268435853"/>
+<entry endPc="268436822" name="xSecondCol" stackId="24" startPc="268435853"/>
+<entry endPc="268436860" name="dictionary" stackId="1" startPc="268436827"/>
+<entry arg="true" endPc="268436872" name="dc" stackId="1" startPc="268436862"/>
+<entry arg="true" endPc="268437061" name="dc" stackId="1" startPc="268437002"/>
+<entry arg="true" endPc="268437061" name="value" stackId="2" startPc="268437002"/>
+<entry arg="true" endPc="268437061" name="cx" stackId="3" startPc="268437002"/>
+<entry arg="true" endPc="268437061" name="cy" stackId="4" startPc="268437002"/>
+<entry arg="true" endPc="268437061" name="font" stackId="5" startPc="268437002"/>
+<entry arg="true" endPc="268437061" name="fontHeight" stackId="6" startPc="268437002"/>
+<entry arg="true" endPc="268437156" name="dc" stackId="1" startPc="268437085"/>
+<entry arg="true" endPc="268437156" name="value" stackId="2" startPc="268437085"/>
+<entry arg="true" endPc="268437156" name="cx" stackId="3" startPc="268437085"/>
+<entry arg="true" endPc="268437156" name="cy" stackId="4" startPc="268437085"/>
+<entry arg="true" endPc="268437156" name="font" stackId="5" startPc="268437085"/>
+<entry arg="true" endPc="268437156" name="fontHeight" stackId="6" startPc="268437085"/>
+<entry arg="true" endPc="268437231" name="dc" stackId="1" startPc="268437157"/>
+<entry arg="true" endPc="268437231" name="value" stackId="2" startPc="268437157"/>
+<entry arg="true" endPc="268437231" name="cx" stackId="3" startPc="268437157"/>
+<entry arg="true" endPc="268437231" name="cy" stackId="4" startPc="268437157"/>
+<entry arg="true" endPc="268437231" name="font" stackId="5" startPc="268437157"/>
+<entry arg="true" endPc="268437231" name="fontHeight" stackId="6" startPc="268437157"/>
+<entry arg="true" endPc="268437322" name="dc" stackId="1" startPc="268437232"/>
+<entry arg="true" endPc="268437322" name="cx" stackId="2" startPc="268437232"/>
+<entry arg="true" endPc="268437322" name="cy" stackId="3" startPc="268437232"/>
+<entry arg="true" endPc="268437322" name="strDayOfWeekName" stackId="4" startPc="268437232"/>
+<entry arg="true" endPc="268437322" name="date" stackId="5" startPc="268437232"/>
+<entry arg="true" endPc="268437322" name="font" stackId="6" startPc="268437232"/>
+<entry arg="true" endPc="268437322" name="fontHeight" stackId="7" startPc="268437232"/>
+<entry endPc="268437321" name="strDate" stackId="8" startPc="268437243"/>
+<entry arg="true" endPc="268437853" name="dc" stackId="1" startPc="268437380"/>
+</localVars>
+<deviceInfo deviceVersion="90325a5ba4f163ec5ad32845d0e0beee034c6cee" partNumber="006-B4375-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Man"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Man_Small"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="121" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/HeartRate" offset="251" parentId="globals" symbolId="HeartRate" type="module"/>
+<dataEntry label="globals/watchView" offset="295" parentId="globals" symbolId="watchView" type="class"/>
+<dataEntry label="globals/Background" offset="465" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry label="globals/Utils" offset="518" parentId="globals" symbolId="Utils" type="module"/>
+<dataEntry label="globals/Rez" offset="580" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Battery" offset="642" parentId="globals" symbolId="Battery" type="module"/>
+<dataEntry label="globals/Step" offset="686" parentId="globals" symbolId="Step" type="module"/>
+<dataEntry label="globals/Calories" offset="721" parentId="globals" symbolId="Calories" type="module"/>
+<dataEntry label="globals/Date" offset="756" parentId="globals" symbolId="Date" type="module"/>
+<dataEntry label="globals/watchApp" offset="791" parentId="globals" symbolId="watchApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="871" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="906" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="941" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="985" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="HeartRate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435468" name="&lt;init&gt;" parent="watchView" startPc="268435457">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435489" name="getApp" startPc="268435469">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435501" name="&lt;init&gt;" parent="Background" startPc="268435490">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Utils">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="Rez" startPc="268435502">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Battery">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Step">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Calories">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Date">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435533" name="&lt;init&gt;" parent="watchApp" startPc="268435522">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435627" name="drawText" parent="HeartRate" startPc="268435534">
+<param id="dc"/>
+<param id="heart_rate"/>
+<param id="cx"/>
+<param id="cy"/>
+<param id="font"/>
+<param id="fontHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435650" name="hrON" parent="HeartRate" startPc="268435628">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435728" name="arrayMax" parent="watchView" startPc="268435651">
+<param id="arr"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435798" name="onLayout" parent="watchView" startPc="268435729">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435834" name="drawText" parent="watchView" startPc="268435799">
+<param id="dc"/>
+<param id="x"/>
+<param id="y"/>
+<param id="text"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435849" name="initialize" parent="watchView" startPc="268435835">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436823" name="onUpdate" parent="watchView" startPc="268435850">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436861" name="initialize" parent="Background" startPc="268436824">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436872" name="draw" parent="Background" startPc="268436862">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436935" name="getSmallFont" parent="Utils" startPc="268436873">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437001" name="getFont" parent="Utils" startPc="268436936">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437061" name="drawText" parent="Battery" startPc="268437002">
+<param id="dc"/>
+<param id="value"/>
+<param id="cx"/>
+<param id="cy"/>
+<param id="font"/>
+<param id="fontHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437084" name="hrON" parent="Battery" startPc="268437062">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437156" name="drawText" parent="Step" startPc="268437085">
+<param id="dc"/>
+<param id="value"/>
+<param id="cx"/>
+<param id="cy"/>
+<param id="font"/>
+<param id="fontHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437231" name="drawText" parent="Calories" startPc="268437157">
+<param id="dc"/>
+<param id="value"/>
+<param id="cx"/>
+<param id="cy"/>
+<param id="font"/>
+<param id="fontHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437322" name="drawText" parent="Date" startPc="268437232">
+<param id="dc"/>
+<param id="cx"/>
+<param id="cy"/>
+<param id="strDayOfWeekName"/>
+<param id="date"/>
+<param id="font"/>
+<param id="fontHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="watchApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437336" name="onSettingsChanged" parent="watchApp" startPc="268437323">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437364" name="getInitialView" parent="watchApp" startPc="268437337">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437379" name="initialize" parent="watchApp" startPc="268437365">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="watchApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437853" name="WatchFace" parent="Layouts" startPc="268437380">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

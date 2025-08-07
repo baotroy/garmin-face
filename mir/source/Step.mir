@@ -1,0 +1,71 @@
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Step.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; @symbol_usingAlias = [Gfx,2,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Step.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Step.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [ActivityMonitor,4,13,28]; @symbol_usingAlias = [Act,4,32,35]; ]
+using Toybox.ActivityMonitor as :Act;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Step.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [System,5,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Step.mc"; @line = 6; @symbol_moduledef = [Step,6,7,11]; ]
+module Step {
+    [ @file = "/Users/bao/ws/MonkeyC/watch2/source/Step.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/bao/ws/MonkeyC/watch2/source/Step.mc"; @line = 8; @symbol_functiondef = [drawText,8,10,18]; @symbol_param<0> = [dc,8,19,21]; @symbol_param<1> = [value,8,23,28]; @symbol_param<2> = [cx,8,30,32]; @symbol_param<3> = [cy,8,34,36]; @symbol_param<4> = [font,8,38,42]; @symbol_param<5> = [fontHeight,8,44,54]; ]
+    function drawText(dc, value, cx, cy, font, fontHeight) {
+_Users_bao_ws_MonkeyC_watch2_source_Step_mc_8_56_13_1_start:
+[ "/Users/bao/ws/MonkeyC/watch2/source/Step.mc" 10 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 10 8 10 ];
+        symbol [ drawText %tmp.2 10 11 19 ];
+        %tmp.2 = getv function %tmp.1 :drawText;
+        %tmp.3 = lgetv %cx;
+        symbol [ cx %tmp.3 10 20 22 ];
+        %tmp.4 = lgetv %cy;
+        symbol [ cy %tmp.4 10 24 26 ];
+        %tmp.5 = 3;
+        %tmp.6 = lgetv %fontHeight;
+        symbol [ fontHeight %tmp.6 10 31 41 ];
+        %tmp.7 = mul %tmp.5 %tmp.6;
+        %tmp.8 = 4;
+        %tmp.9 = div %tmp.7 %tmp.8;
+        %tmp.10 = add %tmp.4 %tmp.9;
+        %tmp.11 = lgetv %font;
+        symbol [ font %tmp.11 10 45 49 ];
+        %tmp.12 = lgetv %value;
+        symbol [ value %tmp.12 10 51 56 ];
+        symbol [ Gfx %tmp.13 10 58 61 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.14 10 62 81 ];
+        %tmp.14 = getv %tmp.13 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.10, %tmp.11, %tmp.12, %tmp.14);
+[ "/Users/bao/ws/MonkeyC/watch2/source/Step.mc" 12 8 ]
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 12 8 10 ];
+        symbol [ drawText %tmp.16 12 11 19 ];
+        %tmp.16 = getv function %tmp.15 :drawText;
+        %tmp.17 = lgetv %cx;
+        symbol [ cx %tmp.17 12 20 22 ];
+        %tmp.18 = lgetv %cy;
+        symbol [ cy %tmp.18 12 24 26 ];
+        %tmp.19 = 3;
+        %tmp.20 = lgetv %fontHeight;
+        symbol [ fontHeight %tmp.20 12 31 41 ];
+        %tmp.21 = mul %tmp.19 %tmp.20;
+        %tmp.22 = 2;
+        %tmp.23 = div %tmp.21 %tmp.22;
+        %tmp.24 = add %tmp.18 %tmp.23;
+        %tmp.25 = lgetv %font;
+        symbol [ font %tmp.25 12 45 49 ];
+        %tmp.26 = "S";
+        symbol [ Gfx %tmp.27 12 56 59 ];
+        %tmp.27 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.28 12 60 79 ];
+        %tmp.28 = getv %tmp.27 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.24, %tmp.25, %tmp.26, %tmp.28);
+_Users_bao_ws_MonkeyC_watch2_source_Step_mc_8_56_13_1_stop:
+    }
+}
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Step.mc"; @line = 2; ]
+<init> {
+}

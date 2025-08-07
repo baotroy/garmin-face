@@ -1,0 +1,70 @@
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Calories.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; @symbol_usingAlias = [Gfx,2,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Calories.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Calories.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [ActivityMonitor,4,13,28]; @symbol_usingAlias = [Act,4,32,35]; ]
+using Toybox.ActivityMonitor as :Act;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Calories.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [System,5,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Calories.mc"; @line = 6; @symbol_moduledef = [Calories,6,7,15]; ]
+module Calories {
+    [ @file = "/Users/bao/ws/MonkeyC/watch2/source/Calories.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/bao/ws/MonkeyC/watch2/source/Calories.mc"; @line = 8; @symbol_functiondef = [drawText,8,10,18]; @symbol_param<0> = [dc,8,19,21]; @symbol_param<1> = [value,8,23,28]; @symbol_param<2> = [cx,8,30,32]; @symbol_param<3> = [cy,8,34,36]; @symbol_param<4> = [font,8,38,42]; @symbol_param<5> = [fontHeight,8,44,54]; ]
+    function drawText(dc, value, cx, cy, font, fontHeight) {
+_Users_bao_ws_MonkeyC_watch2_source_Calories_mc_8_56_15_1_start:
+[ "/Users/bao/ws/MonkeyC/watch2/source/Calories.mc" 13 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 13 8 10 ];
+        symbol [ drawText %tmp.2 13 11 19 ];
+        %tmp.2 = getv function %tmp.1 :drawText;
+        %tmp.3 = lgetv %cx;
+        symbol [ cx %tmp.3 13 20 22 ];
+        %tmp.4 = lgetv %cy;
+        symbol [ cy %tmp.4 13 24 26 ];
+        %tmp.5 = 2;
+        %tmp.6 = div %tmp.4 %tmp.5;
+        %tmp.7 = lgetv %fontHeight;
+        symbol [ fontHeight %tmp.7 13 31 41 ];
+        %tmp.8 = 2;
+        %tmp.9 = div %tmp.7 %tmp.8;
+        %tmp.10 = sub %tmp.6 %tmp.9;
+        %tmp.11 = lgetv %font;
+        symbol [ font %tmp.11 13 45 49 ];
+        %tmp.12 = "9999";
+        symbol [ Gfx %tmp.13 13 59 62 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.14 13 63 82 ];
+        %tmp.14 = getv %tmp.13 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.10, %tmp.11, %tmp.12, %tmp.14);
+[ "/Users/bao/ws/MonkeyC/watch2/source/Calories.mc" 14 8 ]
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 14 8 10 ];
+        symbol [ drawText %tmp.16 14 11 19 ];
+        %tmp.16 = getv function %tmp.15 :drawText;
+        %tmp.17 = lgetv %cx;
+        symbol [ cx %tmp.17 14 20 22 ];
+        %tmp.18 = lgetv %cy;
+        symbol [ cy %tmp.18 14 24 26 ];
+        %tmp.19 = 2;
+        %tmp.20 = div %tmp.18 %tmp.19;
+        %tmp.21 = lgetv %fontHeight;
+        symbol [ fontHeight %tmp.21 14 31 41 ];
+        %tmp.22 = 3;
+        %tmp.23 = div %tmp.21 %tmp.22;
+        %tmp.24 = add %tmp.20 %tmp.23;
+        %tmp.25 = lgetv %font;
+        symbol [ font %tmp.25 14 45 49 ];
+        %tmp.26 = "C";
+        symbol [ Gfx %tmp.27 14 56 59 ];
+        %tmp.27 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.28 14 60 79 ];
+        %tmp.28 = getv %tmp.27 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.24, %tmp.25, %tmp.26, %tmp.28);
+_Users_bao_ws_MonkeyC_watch2_source_Calories_mc_8_56_15_1_stop:
+    }
+}
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Calories.mc"; @line = 2; ]
+<init> {
+}

@@ -1,0 +1,88 @@
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Date.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; @symbol_usingAlias = [Gfx,2,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Date.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Date.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [ActivityMonitor,4,13,28]; @symbol_usingAlias = [Act,4,32,35]; ]
+using Toybox.ActivityMonitor as :Act;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Date.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [System,5,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Date.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Time,6,14,18]; ]
+import Toybox.Time;
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Date.mc"; @line = 7; @symbol_moduledef = [Date,7,7,11]; ]
+module Date {
+    [ @file = "/Users/bao/ws/MonkeyC/watch2/source/Date.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/bao/ws/MonkeyC/watch2/source/Date.mc"; @line = 9; @symbol_functiondef = [drawText,9,10,18]; @symbol_param<0> = [dc,9,19,21]; @symbol_param<1> = [cx,9,23,25]; @symbol_param<2> = [cy,9,27,29]; @symbol_param<3> = [strDayOfWeekName,9,31,47]; @symbol_param<4> = [date,9,49,53]; @symbol_param<5> = [font,9,55,59]; @symbol_param<6> = [fontHeight,9,61,71]; ]
+    function drawText(dc, cx, cy, strDayOfWeekName, date, font, fontHeight) {
+_Users_bao_ws_MonkeyC_watch2_source_Date_mc_9_73_25_1_start:
+[ "/Users/bao/ws/MonkeyC/watch2/source/Date.mc" 16 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 16 8 10 ];
+        symbol [ drawText %tmp.2 16 11 19 ];
+        %tmp.2 = getv function %tmp.1 :drawText;
+        %tmp.3 = lgetv %cx;
+        symbol [ cx %tmp.3 16 20 22 ];
+        %tmp.4 = lgetv %cy;
+        symbol [ cy %tmp.4 16 24 26 ];
+        %tmp.5 = 2;
+        %tmp.6 = div %tmp.4 %tmp.5;
+        %tmp.7 = lgetv %fontHeight;
+        symbol [ fontHeight %tmp.7 16 31 41 ];
+        %tmp.8 = 2;
+        %tmp.9 = div %tmp.7 %tmp.8;
+        %tmp.10 = sub %tmp.6 %tmp.9;
+        %tmp.11 = lgetv %font;
+        symbol [ font %tmp.11 16 45 49 ];
+        %tmp.12 = lgetv %strDayOfWeekName;
+        symbol [ strDayOfWeekName %tmp.12 16 51 67 ];
+        symbol [ Gfx %tmp.13 16 69 72 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.14 16 73 92 ];
+        %tmp.14 = getv %tmp.13 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.10, %tmp.11, %tmp.12, %tmp.14);
+[ "/Users/bao/ws/MonkeyC/watch2/source/Date.mc" 20 8 ]
+        [ "_Users_bao_ws_MonkeyC_watch2_source_Date_mc_9_73_25_1_start" "_Users_bao_ws_MonkeyC_watch2_source_Date_mc_9_73_25_1_stop" ]
+        %strDate.1 = local;
+        symbol [ strDate %strDate.1 20 12 19 ];
+        %tmp.15 = lgetv %date;
+        symbol [ date %tmp.15 20 22 26 ];
+        symbol [ day %tmp.16 20 27 30 ];
+        %tmp.16 = getv %tmp.15 :day;
+        symbol [ format %tmp.17 20 31 37 ];
+        %tmp.17 = getv function %tmp.16 :format;
+        %tmp.18 = "%02d";
+        %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
+        lputv %strDate.1 %tmp.19;
+        symbol [ strDate %strDate.1 20 12 19 ];
+[ "/Users/bao/ws/MonkeyC/watch2/source/Date.mc" 24 8 ]
+        %tmp.20 = lgetv %dc;
+        symbol [ dc %tmp.20 24 8 10 ];
+        symbol [ drawText %tmp.21 24 11 19 ];
+        %tmp.21 = getv function %tmp.20 :drawText;
+        %tmp.22 = lgetv %cx;
+        symbol [ cx %tmp.22 24 20 22 ];
+        %tmp.23 = lgetv %cy;
+        symbol [ cy %tmp.23 24 24 26 ];
+        %tmp.24 = 2;
+        %tmp.25 = div %tmp.23 %tmp.24;
+        %tmp.26 = lgetv %fontHeight;
+        symbol [ fontHeight %tmp.26 24 31 41 ];
+        %tmp.27 = 3;
+        %tmp.28 = div %tmp.26 %tmp.27;
+        %tmp.29 = add %tmp.25 %tmp.28;
+        %tmp.30 = lgetv %font;
+        symbol [ font %tmp.30 24 45 49 ];
+        %tmp.31 = lgetv %strDate.1;
+        symbol [ strDate %tmp.31 24 51 58 ];
+        symbol [ Gfx %tmp.32 24 60 63 ];
+        %tmp.32 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.33 24 64 83 ];
+        %tmp.33 = getv %tmp.32 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.20 %tmp.21(%tmp.22, %tmp.29, %tmp.30, %tmp.31, %tmp.33);
+_Users_bao_ws_MonkeyC_watch2_source_Date_mc_9_73_25_1_stop:
+    }
+}
+[ @file = "/Users/bao/ws/MonkeyC/watch2/source/Date.mc"; @line = 2; ]
+<init> {
+}
